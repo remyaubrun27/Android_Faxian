@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Faxian</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="zhou">Zhou Dynasty </string>
+    <string name="han">Han Dynasty</string>
+    <string name="ming">Ming Dynasty</string>
+    <string name="qin">Qin Dynasty</string>
+    <string name="guest">Log in as guest</string>
+    <string name="hanhistory"> "Time Period:
+206 BCE - 220 CE
+
+Capital:
+Chang'an (206 BC – 9 AD, 190–195 AD)
+Luoyang (25–190 AD, 196 AD)
+Xuchang (196–220 AD)
+
+Government:
+Monarchy
+
+Han Dynasty Description:
+The Han dynasty spread across four centuries from 206 BCE to 220 AD. The Han Dynasty was considered to be the golden age of China. The first emperor in the Han Dynasty was Emperor Gaozu of Han. In 9-23 AD, the dynasty was interrupted by the Xin dynasty. Due to this the Han dynasty was split up into to eras, Former Han from 206 BCE to 9 AD and Later Han from 25 AD to 220 AD. During this time period the dynasty had 3 capitals, Cheng’an, Luoyang, and Xuchang. The Han dynasty saw significant growth in the money economy that was established during past dynasties. The currency used by the government was the same since the Zhou dynasty and remained that way until the Tang dynasty which started in 618 AD.
+    "</string>​
+
+    <string-array name="unitSpinner">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>25</item>
+        <item>50</item>
+    </string-array>
+</resources>

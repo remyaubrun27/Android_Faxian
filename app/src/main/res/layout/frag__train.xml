@@ -1,0 +1,297 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.faxianchina.faxian.Frag_Market">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Training"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toTopOf="@+id/Bows"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913" />
+
+    <LinearLayout
+        android:id="@+id/Bows"
+        android:layout_width="321dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324">
+
+        <ImageView
+            android:id="@+id/archers"
+            android:layout_width="52dp"
+            android:layout_height="63dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.747" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="Have:" />
+
+        <TextView
+            android:id="@+id/haveArchers"
+            android:layout_width="32dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.07"
+            android:gravity="center"
+            android:text="10" />
+
+        <NumberPicker
+            android:id="@+id/archerpicker"
+            android:layout_width="50dp"
+            android:layout_gravity="center"
+            android:layout_height="70dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="23dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.77"
+            android:gravity="center"
+            android:text="x 15 coins
+x 1 person" />
+
+        <Button
+            android:id="@+id/archersButton"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="Buy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Cavalry"
+        android:layout_width="321dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759">
+
+        <ImageView
+            android:id="@+id/cavalry"
+            android:layout_width="51dp"
+            android:layout_height="63dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.747" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="Have:"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/haveCavalry"
+            android:layout_width="32dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.10"
+            android:gravity="center"
+            android:text="10" />
+
+        <NumberPicker
+            android:id="@+id/cavalrypicker"
+            android:layout_width="46dp"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.68"
+
+            android:text="x 180 coins
+x 1 person" />
+
+        <Button
+            android:id="@+id/cavalryButton"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="Buy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Swordmen"
+        android:layout_width="321dp"
+        android:layout_height="64dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467">
+
+        <ImageView
+            android:id="@+id/swordman"
+            android:layout_width="51dp"
+            android:layout_height="63dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.747"
+            android:layout_weight="0.02" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="Have:" />
+
+        <TextView
+            android:id="@+id/haveSwordmen"
+            android:layout_width="32dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="10"
+            android:layout_weight="0.06" />
+
+        <NumberPicker
+            android:id="@+id/swordmenpicker"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.02" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.73"
+            android:gravity="center"
+            android:text="x 30 coins
+x 1 person" />
+
+        <Button
+            android:id="@+id/swordsmenButton"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="Buy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Spearmen"
+        android:layout_width="321dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/spearman"
+            android:layout_width="51dp"
+            android:layout_height="63dp"
+            android:layout_weight="0.00"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.604" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="Have:"
+            android:layout_gravity="center_vertical"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/haveSpearmen"
+            android:layout_width="36dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="10"
+            android:layout_weight="0.00" />
+
+        <NumberPicker
+            android:id="@+id/spearmenpicker"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.00" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="23dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+
+
+            android:layout_weight="0.83"
+            android:gravity="center"
+            android:text="x 60 coins
+x 1 person" />
+
+        <Button
+            android:id="@+id/spearmenButton"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+
+            android:gravity="center"
+            android:text="Buy" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,103 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.faxianchina.faxian.Frag_Map">
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="355dp"
+        android:layout_height="1000dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Xuchang"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintLeft_toRightOf="@+id/map"
+        app:layout_constraintRight_toLeftOf="@+id/map"
+        app:layout_constraintTop_toBottomOf="@+id/map"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <ImageButton
+        android:id="@+id/Changan"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintLeft_toRightOf="@+id/map"
+        app:layout_constraintRight_toLeftOf="@+id/map"
+        app:layout_constraintTop_toBottomOf="@+id/map"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <ImageButton
+        android:id="@+id/Loyang"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintLeft_toRightOf="@+id/map"
+        app:layout_constraintRight_toLeftOf="@+id/map"
+        app:layout_constraintTop_toBottomOf="@+id/map"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <ImageButton
+        android:id="@+id/Linzi"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintLeft_toRightOf="@+id/map"
+        app:layout_constraintRight_toLeftOf="@+id/map"
+        app:layout_constraintTop_toBottomOf="@+id/map"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <ImageButton
+        android:id="@+id/Taiyuan"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintLeft_toRightOf="@+id/map"
+        app:layout_constraintRight_toLeftOf="@+id/map"
+        app:layout_constraintTop_toBottomOf="@+id/map"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <ImageButton
+        android:id="@+id/Chengdu"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="?android:selectableItemBackground"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintLeft_toRightOf="@+id/map"
+        app:layout_constraintRight_toLeftOf="@+id/map"
+        app:layout_constraintTop_toBottomOf="@+id/map"
+        app:layout_constraintVertical_bias="0.49" />
+
+</android.support.constraint.ConstraintLayout>

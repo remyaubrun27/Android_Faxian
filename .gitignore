@@ -1,0 +1,40 @@
+.gradle/
+build/
+gradle/
+idea/
+gradle/*
+
+local.properties
+
+*.log
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+# Android Studio 3 in .gitignore file.
+.idea/caches/build_file_checksums.ser
+.idea/modules.xml
+
+.externalNativeBuild
+
+google-services.json
+
+
+gradlew.*
+
+gradlew
+
+gradle.properties
+
+build.gradle
+
+gradle-wra
